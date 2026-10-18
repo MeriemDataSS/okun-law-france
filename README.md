@@ -30,16 +30,16 @@ The data series were collected separately, cleaned, and merged into a single dat
 
 The empirical analysis uses an augmented Okun model:
 
-\[
+$$
 \Delta u_t = \alpha + \beta g_t + \gamma D_t + \delta(D_t \times g_t) + \varepsilon_t
-\]
+$$
 
 where:
-- \(\Delta u_t\) is the change in the unemployment rate;
-- \(g_t\) is the real GDP growth rate;
-- \(D_t\) is the post-COVID dummy;
-- \(D_t \times g_t\) is the interaction between the dummy and GDP growth;
-- \(\delta\) captures the change in the relationship between GDP growth and unemployment in the post-COVID period.
+- $\Delta u_t$ is the change in the unemployment rate;
+- $g_t$ is the real GDP growth rate;
+- $D_t\$ is the post-COVID dummy;
+- $D_t \times g_t$ is the interaction between the dummy and GDP growth;
+- $\delta$ captures the change in the relationship between GDP growth and unemployment in the post-COVID period.
 
 The interaction coefficient is examined in two samples: one including 2020 and another excluding it.
 
