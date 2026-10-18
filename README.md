@@ -1,7 +1,4 @@
-from pathlib import Path
-import pypandoc
-
-readme = r"""# Has the Okun Coefficient Remained Stable after the COVID-19 Shock? Evidence from France
+# Has the Okun Coefficient Remained Stable after the COVID-19 Shock? Evidence from France
 
 ## Project Overview
 
@@ -119,14 +116,6 @@ The required packages, data paths and execution details should be confirmed agai
 ## Limitations
 
 The post-COVID period contains a limited number of quarterly observations. The findings should therefore be interpreted in light of the sample size and the period covered by the data.
-"""
 
-output_path = Path("/mnt/data/README.md")
-pypandoc.convert_text(
-    readme,
-    "md",
-    format="md",
-    outputfile=str(output_path),
-    extra_args=["--standalone"]
-)
-print(f"README created: {output_path}")
+
+
