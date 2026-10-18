@@ -1,0 +1,24 @@
+
+# Fichiers temporaires de R
+.Rhistory
+.RData
+.Ruserdata
+
+# Fichiers de configuration locaux
+.Rproj.user/
+
+# Fichiers temporaires du système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires de VS Code
+.vscode/
+
+# Fichiers générés ou volumineux
+*.RData
+*.rds
+*.Rhistory
+# Fichiers PDF
+*.pdf
+# Fichier R
+okun_law_analysis.R
